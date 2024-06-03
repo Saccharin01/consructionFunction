@@ -40,8 +40,8 @@ let arrayMembers = [];
 
 // console.log(arrayMembers);
 
-names.forEach((index, ele)=>{
-  arrayMembers.push(makeMember(ele, index))
+names.forEach((name, index)=>{
+  arrayMembers.push(makeMember(name, index))
 })
 //! 이거 앞 뒤 왜 바뀜???
 
