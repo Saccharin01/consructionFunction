@@ -11,7 +11,8 @@ function workOne(a, b){
    * */
   let localVariable = {
   };
-  localVariable[a] = b
+  localVariable[a] = a;
+  localVariable[b] = b;
 
   return localVariable;
 } 
