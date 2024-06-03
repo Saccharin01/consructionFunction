@@ -41,7 +41,7 @@ let arrayMembers = [];
 // console.log(arrayMembers);
 
 names.forEach((name, index)=>{
-  arrayMembers.push(makeMember(name, index))
+  arrayMembers.push(makeMember(index, name))
 })
 //! 이거 앞 뒤 왜 바뀜???
 
