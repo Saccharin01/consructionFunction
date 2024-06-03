@@ -70,3 +70,4 @@ console.log(test.bean)
 console.log(test.water)
 console.log(test.sugar)
 console.log(test.milk)
+
