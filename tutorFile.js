@@ -45,3 +45,4 @@ class Third {
 let testThird = new Third(1,2);
 let testThirdAdd = testThird.add();
 console.log(testThirdAdd);
+console.dir(testThirdAdd)
