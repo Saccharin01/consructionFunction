@@ -33,9 +33,16 @@ const makeMember = require(`./work3.js`)
 console.log(makeMember(1,`tryCatch`))
 
 let arrayMembers = [];
-for(let i = 0; i < names.length; i++){
-  let member = makeMember(i, names[i]);
-  arrayMembers.push(member);
-};
+// for(let i = 0; i < names.length; i++){
+//   let member = makeMember(i, names[i]);
+//   arrayMembers.push(member);
+// };
 
-console.log(arrayMembers);
+// console.log(arrayMembers);
+
+names.forEach((index, ele)=>{
+  arrayMembers.push(makeMember(ele, index))
+})
+//! 이거 앞 뒤 왜 바뀜???
+
+console.log(arrayMembers)
