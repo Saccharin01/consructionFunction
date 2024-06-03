@@ -34,3 +34,6 @@ class jinramen extends ramen{
     super(name,brand)
   }
 }
+
+let ramen = new jinramen('진라면', '오뚜기')
+ramen.getName();
