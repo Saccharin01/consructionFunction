@@ -11,3 +11,26 @@ const songRamen = {
   bowl: "끓인 냄비 그대로 먹는 편",
   after : ["그냥", "물 한잔"]
 }
+
+
+class ramen {
+  constructor(name, brand){
+    this.name = name;
+    this.brand = brand;
+  }
+
+  getName(){
+    return this.name
+  }
+
+  getBrand(){
+    return this.brand
+  }
+}
+
+class jinramen extends ramen{
+  constructor(name, brand)
+  {
+    super(name,brand)
+  }
+}
