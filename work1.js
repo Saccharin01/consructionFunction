@@ -7,6 +7,13 @@ function workOne(a, b){
   /** 
    * * logic comment 
    * *매개변수 두 개를 받은 다음, 리턴은 객체
+   * * 매개변수 a, b가 객체의 key, value가 되었으면 좋겠다
    * */
-  return Object;
+  let localVariable = {
+  };
+  localVariable[a] = b
+
+  return localVariable;
 } 
+console.log(workOne(`alpha`, `beta`))
+workOne()
